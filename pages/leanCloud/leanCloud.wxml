@@ -1,0 +1,4 @@
+<view>
+  <button bindtap="toFoo1">foo1</button>
+  <button bindtap="toFoo2">foo2</button>
+</view>

@@ -1,0 +1,31 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/index/logs/logs",
+
+    "pages/ui/ui",
+
+    "pages/leanCloud/leanCloud",
+    "pages/leanCloud/foo1/foo1",
+    "pages/leanCloud/foo2/foo2"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "color": "#fff",
+    "selectedColor": "green",
+    "backgroundColor": "black",
+    "borderStyle": "white",
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "首页"
+    }, {
+      "pagePath": "pages/ui/ui",
+      "text": "UI"
+    }]
+  }
+}
