@@ -1,0 +1,3 @@
+<view>
+    <button bindtap="toDemo1">demo1</button>
+</view>
