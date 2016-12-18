@@ -4,6 +4,10 @@
     "pages/index/logs/logs",
 
     "pages/ui/ui",
+    "pages/ui/css1/css1",
+    "pages/ui/css1/demo1/demo1",
+    "pages/ui/css6/css6",
+    "pages/ui/css6/demo33/demo33",
 
     "pages/leanCloud/leanCloud",
     "pages/leanCloud/foo1/foo1",
