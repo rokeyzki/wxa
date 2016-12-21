@@ -3,15 +3,17 @@
     "pages/index/index",
     "pages/index/logs/logs",
 
+    "pages/leanCloud/leanCloud",
+    "pages/leanCloud/foo1/foo1",
+    "pages/leanCloud/foo2/foo2",
+
     "pages/ui/ui",
     "pages/ui/css1/css1",
     "pages/ui/css1/demo1/demo1",
     "pages/ui/css6/css6",
     "pages/ui/css6/demo33/demo33",
 
-    "pages/leanCloud/leanCloud",
-    "pages/leanCloud/foo1/foo1",
-    "pages/leanCloud/foo2/foo2"
+    "pages/shop/shop"
   ],
   "window":{
     "backgroundTextStyle":"light",
@@ -20,16 +22,25 @@
     "navigationBarTextStyle":"black"
   },
   "tabBar": {
-    "color": "#fff",
-    "selectedColor": "green",
-    "backgroundColor": "black",
+    "color": "#999",
+    "selectedColor": "#666",
+    "backgroundColor": "#e9e9e9",
     "borderStyle": "white",
     "list": [{
       "pagePath": "pages/index/index",
-      "text": "首页"
+      "text": "首页",
+      "iconPath": "./images/index-grey.png",
+      "selectedIconPath": "./images/index-color.png"
     }, {
       "pagePath": "pages/ui/ui",
-      "text": "UI"
+      "text": "UI",
+      "iconPath": "./images/ui-grey.png",
+      "selectedIconPath": "./images/ui-color.png"
+    }, {
+      "pagePath": "pages/shop/shop",
+      "text": "电商",
+      "iconPath": "./images/shop-grey.png",
+      "selectedIconPath": "./images/shop-color.png"
     }]
   }
 }
