@@ -1,0 +1,49 @@
+/* font */
+#body {
+  font-size: 14pt;
+  color: #888;
+
+  /* test */
+  height: 2000px;
+}
+
+/* 头部导航条 */
+.flex-box {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items: flex-end;
+
+  position: fixed;
+  top: 0;
+  width: 20rem;
+  height: 2em;
+  z-index: 2;
+  background-color: #fff;
+}
+
+.flex-item {
+  width: auto;
+}
+
+.text-box {
+  display: inline-block;
+  padding: 0 0.5em 0.5em;
+}
+
+.text-box.active {
+  border-bottom: 0.2em solid #888;
+}
+
+/* 轮播图 */
+.swiper {
+  background-color: black;
+  margin-top: 2em;
+  height: 12rem;
+}
+
+.slide-image {
+  width: 20rem;
+  height: 12rem;
+}
