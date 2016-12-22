@@ -1,5 +1,8 @@
 {
     "navigationBarBackgroundColor": "#495057",
+    "navigationBarTextStyle": "#fff",
     "navigationBarTitleText": "电商页面",
-    "navigationBarTextStyle":"#fff"
+
+    "enablePullDownRefresh": true,
+    "backgroundTextStyle": "dark"
 }

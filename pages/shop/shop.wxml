@@ -59,6 +59,28 @@
     </view>
   </scroll-view>
 
-  
+  <view class="flex-block-box">
+    <view class="flex-block-item">
+      <view class="block-content">
+        <image src="http://fakeimg.pl/210x210/f1f3f5" class="block-content-image"/>
+        <view class="block-content-text">白鹅绒秋冬加厚羽绒被</view>
+        <view class="block-content-text block-content-price">¥ 1999</view>
+      </view>
+    </view>
+    <view class="flex-block-item">
+      <view class="block-content">
+        <image src="http://fakeimg.pl/210x210/f1f3f5" class="block-content-image"/>
+        <view class="block-content-text">白鹅绒秋冬加厚羽绒被</view>
+        <view class="block-content-text block-content-price">¥ 1999</view>
+      </view>
+    </view>
+    <view class="flex-block-item">
+      <view class="block-content">
+        <image src="http://fakeimg.pl/210x210/f1f3f5" class="block-content-image"/>
+        <view class="block-content-text">白鹅绒秋冬加厚羽绒被</view>
+        <view class="block-content-text block-content-price">¥ 1999</view>
+      </view>
+    </view>
+  </view>
 
 </view>

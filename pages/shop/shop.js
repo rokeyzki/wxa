@@ -17,5 +17,9 @@ Page({
       desc: '自定义分享描述',
       path: '/page/user?id=123'
     }
+  },
+
+  onReachBottom: function () {
+    console.log('到达底部')
   }
 });
