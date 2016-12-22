@@ -50,3 +50,24 @@
   width: 20rem;
   height: 12rem;
 }
+
+/* 横向可滑动导航条 */
+.scroll-view {
+  white-space: nowrap;
+}
+
+.scroll-view-item {
+  display: inline-block;
+}
+
+.item-text-box {
+  margin: auto 1em;
+  padding: 0.2em;
+}
+
+.item-text-box.active {
+  margin: auto 1em;
+  padding: 0.2em;
+  border-bottom: 0.2em solid #495057;
+}
+
