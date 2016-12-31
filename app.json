@@ -29,18 +29,18 @@
     "list": [{
       "pagePath": "pages/index/index",
       "text": "首页",
-      "iconPath": "./images/index-grey.png",
-      "selectedIconPath": "./images/index-color.png"
+      "iconPath": "images/index-grey.png",
+      "selectedIconPath": "images/index-color.png"
     }, {
       "pagePath": "pages/ui/ui",
       "text": "UI",
-      "iconPath": "./images/ui-grey.png",
-      "selectedIconPath": "./images/ui-color.png"
+      "iconPath": "images/ui-grey.png",
+      "selectedIconPath": "images/ui-color.png"
     }, {
       "pagePath": "pages/shop/shop",
       "text": "电商",
-      "iconPath": "./images/shop-grey.png",
-      "selectedIconPath": "./images/shop-color.png"
+      "iconPath": "images/shop-grey.png",
+      "selectedIconPath": "images/shop-color.png"
     }]
   }
 }
