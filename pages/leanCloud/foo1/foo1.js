@@ -1,23 +1,23 @@
 const app = getApp();
-// const AV = require('../../../utils/av-weapp-2.0.0-beta.1.js');
+const AV = require('../../../utils/av-weapp-min.js');
 
 Page({
   onShow: function(options) {
     console.info('foo1 onShow')
 
-    // console.dir(app.globalData)
+    console.dir(app.globalData)
 
-    // const query = new AV.Query('FooClass');
-    // console.dir(query)
+    const query = new AV.Query('FooClass');
+    console.dir(query)
     
-    // // 查询
-    // query.get('573ecb4c2e958a00661de8c4').then(function (data) {
-    //   console.info('LeanCloud 查询成功')
-    //   console.dir(data)
-    // }, function (error) {
-    //   console.error('LeanCloud 查询失败')
-    //   console.error(error)
-    // });
+    // 查询
+    query.get('573ecb4c2e958a00661de8c4').then(function (data) {
+      console.info('LeanCloud 查询成功')
+      console.dir(data)
+    }, function (error) {
+      console.error('LeanCloud 查询失败')
+      console.error(error)
+    });
 
     // 保存
     // var FooClass = AV.Object.extend('FooClass');
