@@ -16,7 +16,7 @@
 
   position: fixed;
   top: 0;
-  width: 20rem;
+  width: 750rpx;
   height: 2em;
   z-index: 2;
 
@@ -41,14 +41,14 @@
 
 /* 轮播图 */
 .swiper {
-  background-color: black;
+  background-color: transparent;
   margin-top: 2em;
-  height: 12rem;
+  height: 450rpx;
 }
 
 .slide-image {
-  width: 20rem;
-  height: 12rem;
+  width: 750rpx;
+  height: 450rpx;
 }
 
 /* 横向可滑动导航条 */
@@ -83,7 +83,7 @@
 
 .flex-block-item {
   box-sizing: border-box;
-  width: 10rem;
+  width: 375rpx;
   border-bottom: 0.1em solid #dee2e6;
 }
 
@@ -101,7 +101,7 @@
 
 .block-content-image {
   width: 100%;
-  height: 10rem;
+  height: 375rpx;
 }
 
 .block-content-text {

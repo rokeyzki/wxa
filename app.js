@@ -1,5 +1,5 @@
 //app.js
-const AV = require('./utils/av-weapp-2.0.0-beta.1.js')
+// const AV = require('./utils/av-weapp-2.0.0-beta.1.js')
 
 App({
   onLaunch: function () {
@@ -8,10 +8,10 @@ App({
     logs.unshift(Date.now())
     wx.setStorageSync('logs', logs)
 
-    AV.init({
-      appId: "JfOG2qyOtPT8YJn2inEdXJyu-gzGzoHsz",
-      appKey: "bwdd6wOL2z5NVMtc8OMjnA1B",
-    })
+    // AV.init({
+    //   appId: "JfOG2qyOtPT8YJn2inEdXJyu-gzGzoHsz",
+    //   appKey: "bwdd6wOL2z5NVMtc8OMjnA1B",
+    // })
 
   },
   getUserInfo:function(cb){
