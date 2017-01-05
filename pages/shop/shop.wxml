@@ -83,4 +83,6 @@
     </view>
   </view>
 
+  <contact-button size="40" ></contact-button>
+
 </view>
